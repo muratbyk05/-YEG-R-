@@ -1,0 +1,66 @@
+
+/*
+*{
+    height: 100vh;
+    width: 100vh;
+    box-sizing: border-box;
+}
+*/
+body{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    place-content: center center;
+    place-items: center center;
+    background-color: burlywood;
+   
+    /*
+    background:url(images/galaxs.jpg) no-repeat;
+    */
+}
+
+form{ 
+    
+  
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    gap: 0.3em;
+}
+input{
+    display: flex;
+    flex: 0 0 2rem;
+    width: 20rem;
+  
+}
+#giriş{
+    color: rgb(0, 119, 255);
+    border-style: inset;
+    width: 15em;
+    text-align: center;
+}
+#ad{
+    color: brown;
+}
+#form{
+  border: thick double rgb(0, 0, 0);
+}
+#cinsiyet{
+    display: flex;
+    place-items: center;
+    display: flex;
+  
+    place-content: center center;
+    place-items: center center;
+
+  
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+}
+
+
